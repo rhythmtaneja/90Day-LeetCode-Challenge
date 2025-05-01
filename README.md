@@ -34,7 +34,7 @@ Each day, I will:
 - **GitHub Repository**: This repository will have all my solved problems, organized by day and difficulty level.
 
 ## 💬 Connect with Me
-- LinkedIn: [www.linkedin.com/in/rhythm-taneja](www.linkedin.com/in/rhythm-taneja)
+- LinkedIn: [https://www.linkedin.com/in/rhythm-taneja](https://www.linkedin.com/in/rhythm-taneja)
 - GitHub: [https://github.com/rhythmtaneja](https://github.com/rhythmtaneja)
 
 ---

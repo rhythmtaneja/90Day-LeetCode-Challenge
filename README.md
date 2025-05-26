@@ -39,13 +39,14 @@ Each day, I will:
 
 ---
 
-### Day 1 Example of Solutions:
+### 📅 Day 1 - 26 May 2025
 
-| Problem Name            | Difficulty | Solution File |
-|-------------------------|------------|---------------|
-| Two Sum                 | Easy       | [easy.py](solutions/Day1/easy.py)  |
-| Add Two Numbers         | Medium     | [medium.py](solutions/Day1/medium.py) |
-| Trapping Rain Water     | Hard       | [hard.py](solutions/Day1/hard.py)   |
+| Problem Name                                | Difficulty | Solution File                |
+|--------------------------------------------|------------|------------------------------|
+| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy       | [1. Two Sum.py](Day%201/1.%20Two%20Sum.py) |
+| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy       | [2. Contains Duplicate.py](Day%201/2.%20Contains%20Duplicate.py) |
+| [Two Sum II – Input Array is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium     | [3. Two Sum II.py](Day%201/3.%20Two%20Sum%20II.py) |
+
 
 ---
 

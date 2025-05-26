@@ -2,8 +2,8 @@ Welcome to my **90-Day LeetCode Challenge**!
 This repository is part of my daily effort to solve **3 LeetCode problems every day**—a mix of Easy, Medium, and Hard challenges—to build strong skills in **Data Structures & Algorithms**.
 
 ## 📅 Challenge Overview
-- **Start Date:** May 1, 2025
-- **End Date:** July 29, 2025
+- **Start Date:** May 26, 2025
+- **End Date:** Aug 23, 2025
 - **Goal:** Solve 3 problems every day for 90 days (Total: 270 problems!)
 - **Focus:** 
   - Easy: Strengthen problem-solving basics

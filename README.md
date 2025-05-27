@@ -18,7 +18,7 @@ You can follow my daily progress and track my challenges here:
 This tracker includes the problems I solve each day, along with links to their solutions and my learning outcomes.
 
 ## 🛠️ Tools and Languages Used
-- **Languages:** Python, JavaScript
+- **Languages:** Java, Python, JavaScript
 - **Tools:** LeetCode, VS Code, GitHub
 - **Version Control:** Git & GitHub for code management and tracking
 - **IDE:** Visual Studio Code

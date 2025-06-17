@@ -33,11 +33,13 @@ class Solution {
         }
 
         // Step 3 Merge two halves
-        ListNode first = head;
-        second = node;
+        ListNode first = head; 
+        second = node; // here node = 5;
 
+        // first = 1; second = 5;
         while (second != null){
-            ListNode temp1 = first.next, temp2 = second.next;
+            ListNode temp1 = first.next; // 2
+            ListNode temp2 = second.next; // 4
             first.next = second;
             second.next = temp1;
             first = temp1;

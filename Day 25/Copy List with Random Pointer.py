@@ -1,37 +1,40 @@
-/*
-// Definition for a Node.
-class Node {
-    int val;
-    Node next;
-    Node random;
-
-    public Node(int val) {
-        this.val = val;
-        this.next = null;
-        this.random = null;
-    }
-}
-*/
-
 class Solution {
     public Node copyRandomList(Node head) {
-        Map<Node, Node> hashMap = new HashMap<>();
-        Node cur = head;
+        if (head == null) return null;
 
-        while (cur != null) {
-            hashMap.put(cur, new Node(cur.val));
-            cur = cur.next;
+        Node curr = head;
+
+        // 1. Insert cloned nodes in between original nodes
+        while (curr != null) {
+            Node newNode = new Node(curr.val);
+            newNode.next = curr.next;
+            curr.next = newNode;
+            curr = newNode.next;
         }
 
-        cur = head;
-
-        while (cur != null) {
-            Node copy = hashMap.get(cur);
-            copy.next = hashMap.get(cur.next);
-            copy.random = hashMap.get(cur.random);
-            cur = cur.next;
+        // 2. Assign random pointers for cloned nodes
+        curr = head;
+        while (curr != null) {
+            if (curr.random != null) {
+                curr.next.random = curr.random.next;
+            }
+            curr = curr.next.next;
         }
 
-        return hashMap.get(head);        
+        // 3. Separate original and cloned lists
+        curr = head;
+        Node newHead = head.next;
+        Node newCurr = newHead;
+
+        while (curr != null) {
+            curr.next = newCurr.next;
+            curr = curr.next;
+            if (curr != null) {
+                newCurr.next = curr.next;
+                newCurr = newCurr.next;
+            }
+        }
+
+        return newHead;
     }
 }
